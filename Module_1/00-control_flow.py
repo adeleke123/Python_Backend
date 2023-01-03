@@ -56,6 +56,7 @@ The input function is used to read user input from the console, and the int func
 
 The if-else statement consists of a boolean expression (in this case, a >= 18) followed by a colon, and then one or more statements indented under the boolean expression. If the boolean expression evaluates to True, the indented statements under the if clause are executed. If the boolean expression evaluates to False, the indented statements under the else clause are executed.
 
+
 """
 if x > y:
     print('x box')
