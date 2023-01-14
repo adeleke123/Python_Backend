@@ -1,15 +1,3 @@
-"""
-Dictionaries are a type of collection that stores key-pairs items in a single variable.
-some important features of dictionaries are:-
-They are mutable
-They are written with curly bracket
-They are ordered
-They are written as key:value pair
-They do not allow duplicates.
-Basic dictionaries operations include:-
-len, index, add, change value, update, discard, pop, remove, clear, pop item.
-
-"""
 '''Dictionaries are a type of collection that stores key-pairs items in a single variable.
 some important features of dictionaries includes'''
 # They are mutable: which means that that you can change the values of the keys in a dictionary. For example:
