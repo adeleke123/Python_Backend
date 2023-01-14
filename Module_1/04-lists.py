@@ -54,4 +54,3 @@ print(components[2:3])
 # output gears
 print(components[-4:4])
 #output gears, motors
-
