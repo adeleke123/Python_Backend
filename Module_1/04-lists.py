@@ -62,3 +62,8 @@ print(components[-4:4])
 fruits = ['apple', 'banana', 'orange', 'mango', 'kiwi']
 print(fruits[-3:-1]) # prints ['orange', 'mango']
 
+'''we can also use slicing with the step parameter (start:stop:step) to select every nth element in a list.'''
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numbers[1::2]) # prints [2, 4, 6, 8, 10]
+
+
