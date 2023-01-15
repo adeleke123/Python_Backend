@@ -75,3 +75,13 @@ print(list3) # prints [[1, 2, 3], [4, 5, 6]]
 fruits = ['apple', 'banana', 'orange']
 fruits[1] = 'mango'
 print(fruits) # prints ['apple', 'mango', 'orange']
+
+'''Lists are dynamic: Lists in python are dynamic, which means that elements can be added or removed from the list after it has been created. For example:'''
+fruits = ['apple', 'banana', 'orange']
+fruits.append('kiwi')
+print(fruits) # prints ['apple', 'banana', 'orange', 'kiwi']
+
+fruits = ['apple', 'banana', 'orange']
+fruits.remove('banana')
+print(fruits) # prints ['apple', 'orange']
+
