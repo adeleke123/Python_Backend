@@ -43,6 +43,7 @@ print(a)
 
 mixed = [1, 'cat', 3.14, [5, 6]]
 print(mixed)
+# output [1, 'cat', 3.14, [5, 6]
 '''List Elements Can Be Accessed by Index Individual elements in a list can be accessed using an index in square brackets.
 
 This is exactly analogous to accessing individual characters in a string. List indexing is zero-based as it is with strings.'''
@@ -57,3 +58,7 @@ print(components[2:3])
 # output gears
 print(components[-4:4])
 #output gears, motors
+
+fruits = ['apple', 'banana', 'orange', 'mango', 'kiwi']
+print(fruits[-3:-1]) # prints ['orange', 'mango']
+
