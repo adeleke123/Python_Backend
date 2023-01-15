@@ -40,6 +40,9 @@ A list can contain any assortment of objects. The elements of a list can all be 
 a = [2, 1, 4, 5]
 print(a)
 # output [2, 1, 4, 5]
+
+mixed = [1, 'cat', 3.14, [5, 6]]
+print(mixed)
 '''List Elements Can Be Accessed by Index Individual elements in a list can be accessed using an index in square brackets.
 
 This is exactly analogous to accessing individual characters in a string. List indexing is zero-based as it is with strings.'''
