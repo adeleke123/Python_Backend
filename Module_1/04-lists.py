@@ -66,4 +66,12 @@ print(fruits[-3:-1]) # prints ['orange', 'mango']
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(numbers[1::2]) # prints [2, 4, 6, 8, 10]
 
-
+'''Lists can be nested to arbitrary depth: Lists can contain other lists as elements, which allows for the creation of nested lists of arbitrary depth. For example:'''
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+list3 = [list1, list2]
+print(list3) # prints [[1, 2, 3], [4, 5, 6]]
+'''Lists are mutable: Lists in Python are mutable, which means that their elements can be modified after the list is created. For example:'''
+fruits = ['apple', 'banana', 'orange']
+fruits[1] = 'mango'
+print(fruits) # prints ['apple', 'mango', 'orange']
