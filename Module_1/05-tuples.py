@@ -108,7 +108,3 @@ print(', '.join(my_tuple))  # Output: 'a, b, c'
 
 """It's worth noting that the join method works with strings, and you cannot use it directly on tuples, you have to convert the tuple to a string before using the join method on it.
 """
-
-
-
-
