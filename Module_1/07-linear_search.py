@@ -42,4 +42,5 @@ else:
 It's worth noting that linear search algorithm has O(n) time complexity in the worst case, that means if the element is not in the array/list, it will have to check all the elements in the array, so if the array/list is big it will take a long time.
 
 In short, Linear search algorithm is a simple and straightforward algorithm that can be used to find an element in a list or an array. It can be implemented using the iterative approach or the recursive approach. The iterative approach is more efficient and has the same time complexity as the recursive approach (O(n)) but it
+
 """
