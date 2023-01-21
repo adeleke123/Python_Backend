@@ -25,16 +25,35 @@ Method overriding is the ability of a subclass to provide a different implementa
 #Class:
 
 class Dog:
-    def __init__(self, name, breed):
+    def __init__(self, name, breed, age):
         self.name = name
         self.breed = breed
+        self.age = age
 
     def bark(self):
-        print("Woof!")
+        print("Woof woof!")
 
-dog1 = Dog("Fido", "Golden Retriever")
-dog2 = Dog("Buddy", "Labrador Retriever")
+    def wag_tail(self):
+        print("Tail wagging...")
+dog1 = Dog("Fido", "Golden Retriever", 3)
+print(dog1.name) # Output: Fido
+dog1.bark() # Output: Woof woof!
+dog1.wag_tail() # Output: Tail wagging...
 
-print(dog1.name)  # Output: Fido
-print(dog2.breed)  # Output: Labrador Retriever
-dog1.bark()  # Output: Woof!
+'''Inheritance is a mechanism by which one class can inherit the properties and methods of another class. The class that inherits is called the derived class, and the class that is inherited from is called the base class.
+
+For example, you can create a subclass of Dog called WorkingDog that inherits all the properties and methods of the Dog class, but also has additional attributes and methods specific to working dog'''
+
+class WorkingDog(Dog):
+    def __init__(self, name, breed, age, job):
+        super().__init__(name, breed, age)
+        self.job = job
+
+    def work(self):
+        print(f"{self.name} is working as a {self.job}.")
+
+dog2 = WorkingDog("Max", "German Shepherd", 5, "police dog")
+print(dog2.name) # Output: Max
+dog2.bark() # Output: Woof woof!
+dog2.work() # Output: Max is working as a police dog.
+
