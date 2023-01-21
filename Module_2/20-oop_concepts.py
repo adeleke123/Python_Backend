@@ -25,7 +25,6 @@ Method overriding is the ability of a subclass to provide a different implementa
 #Class:
 
 class Dog:
-<<<<<<< HEAD
     def __init__(self, name, breed, age):
         self.name = name
         self.breed = breed
@@ -57,8 +56,7 @@ dog2 = WorkingDog("Max", "German Shepherd", 5, "police dog")
 print(dog2.name) # Output: Max
 dog2.bark() # Output: Woof woof!
 dog2.work() # Output: Max is working as a police dog.
-
-=======
+    
     def __init__(self, name, breed):
         self.name = name
         self.breed = breed
@@ -72,4 +70,59 @@ dog2 = Dog("Buddy", "Labrador Retriever")
 print(dog1.name)  # Output: Fido
 print(dog2.breed)  # Output: Labrador Retriever
 dog1.bark()  # Output: Woof!
->>>>>>> c25955549219a38b02ed47aa880e698849a9620a
+
+""" You can create an instance of the Dog class by calling the class name and passing any required arguments to the class constructor (init method)
+Inheritance is a mechanism by which one class can inherit the properties and methods of another class. The class that inherits is called the derived class, and the class that is inherited from is called the base class.
+
+For example, you can create a subclass of Dog called WorkingDog that inherits all the properties and methods of the Dog class, but also has additional attributes and methods specific to working dogs."""
+
+class WorkingDog(Dog):
+    def __init__(self, name, breed, age, job):
+        super().__init__(name, breed, age)
+        self.job = job
+
+    def work(self):
+        print(f"{self.name} is working as a {self.job}.")
+
+dog2 = WorkingDog("Max", "German Shepherd", 5, "police dog")
+print(dog2.name) # Output: Max
+dog2.bark() # Output: Woof woof!
+dog2.work() # Output: Max is working as a police dog.
+"""
+Polymorphism is the ability of a single function or method to operate on multiple types of data. In Python, polymorphism is achieved through method overriding and method overloading.
+
+Method overriding is when a derived class provides a different implementation of a method that is already defined in the base class.
+
+Method overloading is when a class defines multiple methods with the same name but different parameters.
+"""
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        pass
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow"
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof Woof"
+
+c = Cat("Whiskers")
+print(c.speak()) # Output: Meow
+
+d = Dog("Fido")
+print(d.speak()) # Output: Woof Woof
+"""
+In the above example, the base class Animal has a speak() method that is left empty (using the pass statement) because it is meant to be overridden by derived classes. The Cat and Dog classes both inherit from the Animals class and provide their own implementation of the speak() method. This allows for polymorphism, where a single function (in this case, speak()) can be called on objects of different classes (Cat and Dog) and produce different results.
+
+Another example of polymorphism is the use of the + operator on different data types. In Python, the + operator can be used to add numbers, concatenate strings, and even merge lists. This is because the + operator is overloaded for different data types in Python.
+"""
+
+print(1 + 2) # Output: 3
+print("Hello" + " " + "world!") # Output: "Hello world!"
+print([1, 2, 3] + [4, 5, 6]) # Output: [1, 2, 3, 4, 5, 6]
+
+"""In conclusion, OOP in Python provides several features to support OOP such as class, object, inheritance, and polymorphism. Classes are used to define the structure of objects and their methods, inheritance allows for code reuse and polymorphism allows for flexibility in how methods are implemented and used. These features allow for more modular, maintainable, and extensible code."""
