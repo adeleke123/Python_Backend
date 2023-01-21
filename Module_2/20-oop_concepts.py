@@ -17,7 +17,7 @@ Polymorphism is the ability of a single function or method to operate on multipl
 
 Method overloading is the ability of a class to have more than one method with the same name but different parameters. Python does not support method overloading.
 
-Method overriding is the ability of a subclass to provide a different implementation of a method that is already provided by its superclass. In python, this is achieved by defining a method with the same name in the subclass as in the superclass
+Method overriding is the ability of a subclass to provide a different implementation of a method that is already provided by its superclass. In python, this is achieved by defining a method with the same name in the subclass as in the superclass.
 
 """
 # Here are some examples of OOP concepts in Python:
@@ -25,6 +25,7 @@ Method overriding is the ability of a subclass to provide a different implementa
 #Class:
 
 class Dog:
+<<<<<<< HEAD
     def __init__(self, name, breed, age):
         self.name = name
         self.breed = breed
@@ -57,3 +58,18 @@ print(dog2.name) # Output: Max
 dog2.bark() # Output: Woof woof!
 dog2.work() # Output: Max is working as a police dog.
 
+=======
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        print("Woof!")
+
+dog1 = Dog("Fido", "Golden Retriever")
+dog2 = Dog("Buddy", "Labrador Retriever")
+
+print(dog1.name)  # Output: Fido
+print(dog2.breed)  # Output: Labrador Retriever
+dog1.bark()  # Output: Woof!
+>>>>>>> c25955549219a38b02ed47aa880e698849a9620a
