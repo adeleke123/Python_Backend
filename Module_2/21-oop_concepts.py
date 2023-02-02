@@ -20,3 +20,6 @@ class Dog(Animal):
 
 dog = Dog("Fido", "Labrador")
 dog.make_sound() # Output: Woof!
+"""
+In this example, we first create a base class Animal with two attributes name and species and a method make_sound. Then we create a derived class Dog that inherits from Animal. The Dog class has its own __init__ method that calls the __init__ method of the Animal class and sets its own attribute breed. The Dog class also overrides the make_sound method with its own implementation.
+"""
