@@ -26,4 +26,7 @@ try:
     print(10 / number)
 except (ZeroDivisionError, ValueError) as e:
     print(f"An error occurred: {e}")
+""" In this example, both ZeroDivisionError and ValueError exceptions are caught in a single except block and the error message is printed. The error message can be accessed using the e object, which holds the exception object.
 
+Note that it is important to handle exceptions properly in your code to make it more robust and prevent it from crashing. It is also a good practice to raise exceptions in your own code when something unexpected happens, so that the caller can handle the exception and take appropriate action.
+"""
