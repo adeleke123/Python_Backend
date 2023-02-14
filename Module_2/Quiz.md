@@ -101,57 +101,68 @@ The ___ keyword defines a template indicating the data that will be in an object
 + object
 + Class
 + instance
-Question 13 / 20
+
+`Question 13 / 20`
 ____ is a single occurrence of an object created when the object is initialized.
 
-class
-objectWrong
-Class
-instanceCorrect
-Question 14 / 20
++ class
++ objectWrong
++ Class
++ `instance`
+
+`Question 14 / 20`
+
 ____ is not a keyword, but by convention it is used to refer to the current instance (object) of a class.
 
-class
-selfCorrect
-def
-init
-Question 15 / 20
++ class
++ `self`
++ def
++ init
+
+`Question 15 / 20`
 ____ is a keyword that defines the template for objects of the class
 
-classCorrect
-self
-object
-instance
-Question 16 / 20
-rue or False? In order to extend a class, the new class should have access to all the data and inner workings of the parent class
++ `class`
++ self
++ object
++ instance
++ 
+`Question 16 / 20`
 
-TRUE
-FALSECorrect
-Question 17 / 20
+true or False? In order to extend a class, the new class should have access to all the data and inner workings of the parent class
+
++ TRUE
++ `FALSE`
++ 
+`Question 17 / 20`
+
 Which of the following is the correct way to define an initializer method?
 
-def __init__(title, author):
-def __init__(self, title, author):Correct
-def __init__():
-__init__(self, title, author):
-Question 18 / 20
++ def __init__(title, author):
++ `def __init__(self, title, author):`
++ def __init__():
++ __init__(self, title, author):
+
+`Question 18 / 20`
 ____ is used to define a function
 
-self
-function
-defCorrect
-class
-Question 19 / 20
++ self
++ function
++ `def`
++ class
+
+`Question 19 / 20`
 ____ is the variable listed inside the parentheses in the function definition.
 
-argument
-parameterCorrect
-variable
-object
-Question 20 / 20
++ argument
++ `parameter`
++ variable
++ object
+
+`Question 20 / 20`
 Whicjh one of these is true about a variable and an object?
 
-Simple variable can only hold multiple values while an object can hold one variable
-Simple variable can only hold one object and an object can hold multiple variables
-Simple variable can only hold multiple objects alone
-Simple variable can only hold one value while objects can hold variables and other data types
++ Simple variable can only hold multiple values while an object can hold one variable
++ Simple variable can only hold one object and an object can hold multiple variables
++ Simple variable can only hold multiple objects alone
++ `Simple variable can only hold one value while objects can hold variables and other data types`
