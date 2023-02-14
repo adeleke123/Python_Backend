@@ -42,3 +42,9 @@ import math
 print(math.sin(math.pi/2))    # Output: 1.0
 print(math.sqrt(25))    # Output: 5.0
 
+In summary, a module is a file containing Python definitions and statements that can be used in other Python files. You can import modules using the import keyword, and access their functions, classes, and variables in your program.
+
+
+
+
+
