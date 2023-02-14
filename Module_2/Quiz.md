@@ -15,6 +15,7 @@ When a module is imported for the first time, then
 + the module is executed
 + the module is declared
 + `the module is inherited`
+
 `Question 3 / 20`
 
 In Python, a class is ____ for a concrete object.
@@ -37,7 +38,7 @@ Fill in the blank: Object and class attributes are accessed using____ notation i
 A child class is _____
 
 + the class that exhibit from another class
-+ the class that inherits from another classCorrect
++ `the class that inherits from another class`
 + the class that support from another class
 + the class that encapsulate from another class
 
@@ -67,34 +68,39 @@ Can objects of abstract classes be instantiated?
 + noWrong
 
 `Question 9 / 20`
+
 class Animal: does what?
 
 + `declare a class`
 + instantiate a class
 + call a class
-+ inherit a classWrong
++ inherit a class
 
 `Question 10 / 20`
 Which of the following does not correctly create an object instance?
 
-puppy = Dog("Jamie")
-dog = Dog("Jamie")
-jamie = Dog()
-pupper = new Dog("Jamie")Correct
-Question 11 / 20
++ puppy = Dog("Jamie")
++ dog = Dog("Jamie")
++ jamie = Dog()
++ `pupper = new Dog("Jamie")`
+
+`Question 11 / 20`
+
 Which of the following statements is not true about object-oriented programming?
 
-One of the benefits of object-oriented programming is that it can hide complexity
-A class contains functions as well as the data that is used by those functions
-Constructor methods are required to initialize an object and destructor methods are required to destroy the object when no longer requiredCorrect
-A powerful feature of object-oriented programming is the ability to create a new class by extending an existing class.
-Question 12 / 20
++ One of the benefits of object-oriented programming is that it can hide complexity
++ A class contains functions as well as the data that is used by those functions
++ `Constructor methods are required to initialize an object and destructor methods are required to destroy the object when no longer required`
++ A powerful feature of object-oriented programming is the ability to create a new class by extending an existing class.
+
+`Question 12 / 20`
+
 The ___ keyword defines a template indicating the data that will be in an object of the class and the functions that can be called on an object of the class.
 
-classCorrect
-object
-Class
-instance
++ class
++ object
++ Class
++ instance
 Question 13 / 20
 ____ is a single occurrence of an object created when the object is initialized.
 
