@@ -1,69 +1,80 @@
-Week 1 Quiz
-Quiz Score:
-GOOD
-70
-Question 1 / 20
+`Question 1 / 20`
+
 How do you install django rest?
 
-pip install drf
-pip install djangorestframeworkCorrect
-python install djangorestframework
-pip install django_rest_framework
-Question 2 / 20
++ pip install drf
++ `pip install djangorestframework`
++ python install djangorestframework
++ pip install django_rest_framework
+
+`Question 2 / 20`
+
 When a module is imported for the first time, then
 
-the module is defined
-the module is executedWrong
-the module is declared
-the module is inheritedCorrect
-Question 3 / 20
++ the module is defined
++ the module is executed
++ the module is declared
++ `the module is inherited`
+`Question 3 / 20`
+
 In Python, a class is ____ for a concrete object.
 
-an instance
-a blueprintCorrect
-an entity
-a dissect
-Question 4 / 20
-Fill in the blank: Object and class attributes are accessed using____ notation in Python
++ an instance
++ `a blueprint`
++ an entity
++ a dissect
 
-,
-__init__
-.Correct
-()
-Question 5 / 20
+`Question 4 / 20`
+
+Fill in the blank: Object and class attributes are accessed using____ notation in Python
++ ,
++ __init__
++ `.`
++ ()
++ 
+`Question 5 / 20`
+
 A child class is _____
 
-the class that exhibit from another class
-the class that inherits from another classCorrect
-the class that support from another class
-the class that encapsulate from another class
-Question 6 / 20
++ the class that exhibit from another class
++ the class that inherits from another classCorrect
++ the class that support from another class
++ the class that encapsulate from another class
+
+`Question 6 / 20`
+
 One of this explains the concept of polymorphism.
 
-it describes situations in which something occurs in several different formsCorrect
-it describes situations in which a class can inherit from a different classWrong
-it describes situations in which something occurs in several one form
-it describes situations in which something occurs in two forms only
-Question 7 / 20
++ `it describes situations in which something occurs in several different forms`
++ it describes situations in which a class can inherit from a different class
++ it describes situations in which something occurs in several one form
++ it describes situations in which something occurs in two forms only
+
+`Question 7 / 20`
+
 Pick the term that relates to polymorphism
 
-Dynamic bindingWrong
-Dynamic allocationCorrect
-Static typing
-Static allocation
-Question 8 / 20
++ Dynamic binding
++ `Dynamic allocation`
++ Static typing
++ Static allocation
+
+`Question 8 / 20`
+
 Can objects of abstract classes be instantiated?
 
-yesCorrect
-noWrong
-Question 9 / 20
++ `yes`
++ noWrong
+
+`Question 9 / 20`
 class Animal: does what?
 
-declare a classCorrect
-instantiate a class
-call a class
-inherit a classWrong
-Question 10 / 20
++ `declare a class`
++ instantiate a class
++ call a class
++ inherit a classWrong
+
+`Question 10 / 20`
 Which of the following does not correctly create an object instance?
 
 puppy = Dog("Jamie")
